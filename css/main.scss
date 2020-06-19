@@ -466,8 +466,22 @@ header {
     height: 500px;
     background-color: #eff4f6;
     margin: 0 15px;
+    transition: 0.5s;
+    &:hover {
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.3);
+      .card-text {
+        border-bottom: 2px solid rgba(172, 138, 116, 1);
+        border-left: 2px solid rgba(172, 138, 116, 1);
+        border-right: 2px solid rgba(172, 138, 116, 1);
+      }
+    }
     .card-text {
       padding: 1em;
+      height: 240px;
+      border-bottom: 2px solid rgba(172, 138, 116, 0);
+      border-left: 2px solid rgba(172, 138, 116, 0);
+      border-right: 2px solid rgba(172, 138, 116, 0);
+      transition: 0.5s;
     }
     .card-bg {
       width: 350px;
@@ -501,6 +515,7 @@ header {
     display: flex;
     align-items: center;
     color: #1b1b1b;
+    margin-top: 0.8em;
   }
 
   .preview {
@@ -510,15 +525,23 @@ header {
     display: flex;
     align-items: center;
     color: #5a5a5a;
+    font-weight: 400;
   }
 
   .read-more {
-    width: 93px;
+    margin-top: 1em;
+    width: 65px;
     height: 36px;
     font-weight: 500;
     font-size: 14px;
     display: flex;
     align-items: center;
     color: #ac8a74;
+    border-bottom: 1px solid #ac8a74;
+    transition: 0.4s;
+    &:hover {
+      color: #000000;
+      border-bottom: 1px solid #000000;
+    }
   }
 }

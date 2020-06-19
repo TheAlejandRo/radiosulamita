@@ -840,10 +840,29 @@ header .cta-2:hover {
   height: 500px;
   background-color: #eff4f6;
   margin: 0 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.story-cards-container .card:hover {
+  -webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.3);
+}
+
+.story-cards-container .card:hover .card-text {
+  border-bottom: 2px solid #ac8a74;
+  border-left: 2px solid #ac8a74;
+  border-right: 2px solid #ac8a74;
 }
 
 .story-cards-container .card .card-text {
   padding: 1em;
+  height: 240px;
+  border-bottom: 2px solid rgba(172, 138, 116, 0);
+  border-left: 2px solid rgba(172, 138, 116, 0);
+  border-right: 2px solid rgba(172, 138, 116, 0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .story-cards-container .card .card-bg {
@@ -879,6 +898,7 @@ header .cta-2:hover {
       -ms-flex-align: center;
           align-items: center;
   color: #1b1b1b;
+  margin-top: 0.8em;
 }
 
 .story-cards-container .preview {
@@ -892,10 +912,12 @@ header .cta-2:hover {
       -ms-flex-align: center;
           align-items: center;
   color: #5a5a5a;
+  font-weight: 400;
 }
 
 .story-cards-container .read-more {
-  width: 93px;
+  margin-top: 1em;
+  width: 65px;
   height: 36px;
   font-weight: 500;
   font-size: 14px;
@@ -906,5 +928,13 @@ header .cta-2:hover {
       -ms-flex-align: center;
           align-items: center;
   color: #ac8a74;
+  border-bottom: 1px solid #ac8a74;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.story-cards-container .read-more:hover {
+  color: #000000;
+  border-bottom: 1px solid #000000;
 }
 /*# sourceMappingURL=main.css.map */
