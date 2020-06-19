@@ -842,6 +842,10 @@ header .cta-2:hover {
   margin: 0 15px;
 }
 
+.story-cards-container .card .card-text {
+  padding: 1em;
+}
+
 .story-cards-container .card .card-bg {
   width: 350px;
   height: 260px;
@@ -861,5 +865,46 @@ header .cta-2:hover {
 
 .story-cards-container .story-3 .card-bg {
   background-image: url(../images/story-cards/story-3.jpg);
+}
+
+.story-cards-container .title {
+  width: 268px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1b1b1b;
+}
+
+.story-cards-container .preview {
+  width: 318px;
+  height: 99px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5a5a5a;
+}
+
+.story-cards-container .read-more {
+  width: 93px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ac8a74;
 }
 /*# sourceMappingURL=main.css.map */
