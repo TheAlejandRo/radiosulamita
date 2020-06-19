@@ -1612,6 +1612,7 @@ header .cta-2:hover {
 .colaboradores .container .section-head {
   margin-top: 80px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .colaboradores .container .section-head .title {
@@ -1734,7 +1735,7 @@ header .cta-2:hover {
   width: 50%;
   height: 500px;
   background-image: url(../images/sections/carlos-ovidio-dubon-guerra.jpg);
-  background-position: right center;
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1777,5 +1778,102 @@ header .cta-2:hover {
   font-size: 14px;
   color: #5a5a5a;
   line-height: 27px;
+}
+
+.pastor-footer {
+  height: 150px;
+  width: 100%;
+  background-color: #ac8a74;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pastor-footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pastor-footer .container .left .title {
+  width: 839px;
+  height: 69.26px;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.pastor-footer .container .left .verse {
+  width: 839px;
+  height: 28.38px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eaeaea;
+}
+
+.pastor-footer .btn-donar {
+  width: 150px;
+  height: 60px;
+  background: #1b1b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pastor-footer .btn-donar:hover {
+  background: #ac8a74;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 /*# sourceMappingURL=main.css.map */
