@@ -5,6 +5,36 @@
   padding: 0;
 }
 
+*::-moz-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+*::selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+*::-moz-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+*::-o-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+*::-ms-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+*::-webkit-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -719,5 +749,117 @@ header .cta-2:hover {
   background: #1b1b1b;
   -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
           box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+}
+
+.historias-biblicas {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.historias-biblicas .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.historias-biblicas .container .section-head {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.historias-biblicas .container .section-head .title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.historias-biblicas .container .section-head .verse-text {
+  width: 800px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.historias-biblicas .container .section-head .verse {
+  height: 33px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9c7d69;
+}
+
+.story-cards-container {
+  margin-top: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.story-cards-container .card {
+  width: 350px;
+  height: 500px;
+  background-color: #eff4f6;
+  margin: 0 15px;
+}
+
+.story-cards-container .card .card-bg {
+  width: 350px;
+  height: 260px;
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story-cards-container .story-1 .card-bg {
+  background-image: url(../images/story-cards/story-1.jpg);
+}
+
+.story-cards-container .story-2 .card-bg {
+  background-image: url(../images/story-cards/story-2.jpg);
+}
+
+.story-cards-container .story-3 .card-bg {
+  background-image: url(../images/story-cards/story-3.jpg);
 }
 /*# sourceMappingURL=main.css.map */
