@@ -951,3 +951,58 @@ header {
     }
   }
 }
+
+.contact-box {
+  width: 100%;
+  height: 658px;
+  background: #eff4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  .left,
+  .rigth {
+    width: 472px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .content {
+    margin-top: 40px;
+    width: 472px;
+    height: 391px;
+    .sub-title {
+      font-size: 14px;
+      color: #ac8a74;
+      border-bottom: 1px solid #ac8a74;
+      width: fit-content;
+    }
+
+    .location,
+    .telephones,
+    .email {
+      margin-bottom: 40px;
+      margin-top: 20px;
+      width: 309px;
+      font-size: 14px;
+      line-height: 23px;
+      color: #5a5a5a;
+    }
+  }
+}
+
+.cbox::after {
+  content: "";
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
