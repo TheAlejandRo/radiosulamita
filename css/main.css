@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1498,5 +1499,228 @@ header .cta-2:hover {
   background: #000000;
   -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
           box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+}
+
+.necesitas-de-oracion {
+  height: 110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b1b1b;
+}
+
+.necesitas-de-oracion .container {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.necesitas-de-oracion .container .left {
+  font-size: 22px;
+}
+
+.necesitas-de-oracion .container .button {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 60px;
+  background: #ac8a74;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.necesitas-de-oracion .container .button:hover {
+  background: #000000;
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+}
+
+.colaboradores {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.colaboradores .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.colaboradores .container .section-head {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.colaboradores .container .section-head .title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+  margin-top: -8px;
+  margin-bottom: 35px;
+}
+
+.colaboradores .container .section-head .verse-text {
+  width: 800px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.colaboradores .container .section-head .verse {
+  height: 33px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9c7d69;
+}
+
+.our-team {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-team .person {
+  width: 239px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 35px 18px;
+}
+
+.our-team .person .profile-picture {
+  width: 239px;
+  height: 239px;
+  border-radius: 50%;
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.our-team .person .profile-picture:hover {
+  -webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.28);
+          box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.28);
+}
+
+.our-team .person .name {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.our-team .person .role {
+  font-size: 14px;
+  color: #9c7d69;
+}
+
+.our-team .p1 .profile-picture {
+  background-image: url(../images/colaboradores/robin-sucup.png);
+}
+
+.our-team .p2 .profile-picture {
+  background-image: url(../images/colaboradores/jose-pop.png);
+}
+
+.our-team .p3 .profile-picture {
+  background-image: url(../images/colaboradores/yeseña-rivera.png);
+}
+
+.our-team .p4 .profile-picture {
+  background-image: url(../images/colaboradores/sindi-pop.png);
+}
+
+.our-team .p5 .profile-picture {
+  background-image: url(../images/colaboradores/sindi-pop.png);
+}
+
+.our-team .p6 .profile-picture {
+  background-image: url(../images/colaboradores/carlos-daniel-dubon-lemus.png);
 }
 /*# sourceMappingURL=main.css.map */
