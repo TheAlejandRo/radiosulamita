@@ -6,32 +6,32 @@
 }
 
 *::-moz-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-moz-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-o-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-ms-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-webkit-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
@@ -1025,6 +1025,7 @@ header .cta-2:hover {
 .videos-box .right {
   width: 472px;
   margin: 0 15px;
+  margin-top: 50px;
 }
 
 .videos-box .title {
@@ -1051,6 +1052,7 @@ header .cta-2:hover {
 
 .videos-box .video-head {
   height: 70px;
+  margin-bottom: 18px;
 }
 
 .videos-box .video-file {

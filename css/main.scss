@@ -5,27 +5,27 @@
 }
 
 *::selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-moz-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-o-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-ms-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
 *::-webkit-selection {
-  background-color: #352e7e;
+  background-color: #7a563e;
   color: #fff;
 }
 
@@ -594,6 +594,7 @@ header {
   .right {
     width: 472px;
     margin: 0 15px;
+    margin-top: 50px;
   }
   .title {
     font-size: 18px;
@@ -609,6 +610,7 @@ header {
   }
   .video-head {
     height: 70px;
+    margin-bottom: 18px;
   }
   .video-file {
     width: 472px;
