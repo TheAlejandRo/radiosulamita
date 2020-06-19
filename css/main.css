@@ -937,4 +937,12 @@ header .cta-2:hover {
   color: #000000;
   border-bottom: 1px solid #000000;
 }
+
+.separator {
+  margin-top: 80px;
+  width: 1110px;
+  height: 2px;
+  background: #e8e8e8;
+  margin: 80px auto;
+}
 /*# sourceMappingURL=main.css.map */
