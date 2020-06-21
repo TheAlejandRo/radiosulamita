@@ -46,7 +46,6 @@ ul {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 1500vh;
 }
 
 @mixin center_row {
@@ -782,6 +781,7 @@ header {
         width: 211px;
         height: 211px;
         border: 2.3px solid #AC8A74;
+        background-color: gray;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -989,6 +989,10 @@ header {
       color: #ac8a74;
       border-bottom: 1px solid #ac8a74;
       width: fit-content;
+    }
+
+    .cbox {
+      background-color: gray;
     }
 
     .location,

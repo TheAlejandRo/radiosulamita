@@ -351,7 +351,6 @@ ul {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 1500vh;
 }
 
 .container {
@@ -1697,6 +1696,7 @@ header .cta-2:hover {
   width: 211px;
   height: 211px;
   border: 2.3px solid #AC8A74;
+  background-color: gray;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2015,6 +2015,10 @@ header .cta-2:hover {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.contact-box .content .cbox {
+  background-color: gray;
 }
 
 .contact-box .content .location,
