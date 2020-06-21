@@ -12,8 +12,7 @@ let timer = function () {
 
     let documentCountDown = document.querySelector('.countdown');
 
-    documentCountDown.innerHTML = days + ' <span style="color: #878787;">Días</span> ' + hours + ' <span style="color: #878787;">Horas</span> '
-        + minutes + ' <span style="color: #878787;">Minutos</span> ' + seconds + ' <span style="color: #878787;">Segundos</span>';
+    documentCountDown.innerHTML = `${days} <span style="color: #878787;">Días</span> ${hours} <span style="color: #878787;">Horas</span> ${minutes} <span style="color: #878787;">Minutos</span> ${seconds} <span style="color: #878787;">Segundos</span>`;
 
     if (distance < 0) {
         clearInterval(aniversario);
