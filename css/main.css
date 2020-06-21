@@ -351,7 +351,7 @@ ul {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 1000vh;
+  height: 1500vh;
 }
 
 .container {
@@ -1672,14 +1672,35 @@ header .cta-2:hover {
   margin: 35px 18px;
 }
 
-.our-team .person .profile-picture {
+.our-team .person .photo-container {
   width: 239px;
   height: 239px;
+  -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 50%;
-  background-color: gray;
+}
+
+.our-team .person .photo-container .photo {
+  width: 211px;
+  height: 211px;
+  border: 2.3px solid #AC8A74;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 50%;
 }
 
 .our-team .person .name {
@@ -1694,28 +1715,28 @@ header .cta-2:hover {
   color: #9c7d69;
 }
 
-.our-team .p1 .profile-picture {
-  background-image: url(../images/colaboradores/robin-sucup.png);
+.our-team .p1 .photo {
+  background-image: url(../images/colaboradores/robin-sucup.jpg);
 }
 
-.our-team .p2 .profile-picture {
-  background-image: url(../images/colaboradores/jose-pop.png);
+.our-team .p2 .photo {
+  background-image: url(../images/colaboradores/jose-pop.jpg);
 }
 
-.our-team .p3 .profile-picture {
-  background-image: url(../images/colaboradores/yeseña-rivera.png);
+.our-team .p3 .photo {
+  background-image: url(../images/colaboradores/yeseña-rivera.jpg);
 }
 
-.our-team .p4 .profile-picture {
-  background-image: url(../images/colaboradores/sindi-pop.png);
+.our-team .p4 .photo {
+  background-image: url(../images/colaboradores/sindi-pop.jpg);
 }
 
-.our-team .p5 .profile-picture {
-  background-image: url(../images/colaboradores/darlin-sucup.png);
+.our-team .p5 .photo {
+  background-image: url(../images/colaboradores/darlin-sucup.jpg);
 }
 
-.our-team .p6 .profile-picture {
-  background-image: url(../images/colaboradores/carlos-daniel-dubon-lemus.png);
+.our-team .p6 .photo {
+  background-image: url(../images/colaboradores/carlos-daniel-dubon-lemus.jpg);
 }
 
 .pastor-message {
@@ -2005,16 +2026,5 @@ header .cta-2:hover {
   font-size: 14px;
   line-height: 23px;
   color: #5a5a5a;
-}
-
-.cbox::after {
-  content: "";
-  width: 100%;
-  background-color: red;
-  position: absolute;
-  height: 30px;
-  top: 0;
-  left: 0;
-  z-index: 5;
 }
 /*# sourceMappingURL=main.css.map */

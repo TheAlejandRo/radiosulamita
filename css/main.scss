@@ -46,7 +46,7 @@ ul {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 1000vh;
+  height: 1500vh;
 }
 
 @mixin center_row {
@@ -771,14 +771,22 @@ header {
     align-items: center;
     text-align: center;
     margin: 35px 18px;
-    .profile-picture {
+
+    .photo-container {
       width: 239px;
       height: 239px;
+      box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+      @include center_row();
       border-radius: 50%;
-      background-color: gray;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      .photo {
+        width: 211px;
+        height: 211px;
+        border: 2.3px solid #AC8A74;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+      }
     }
     .name {
       margin-top: 20px;
@@ -793,33 +801,33 @@ header {
   }
 
   .p1 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/robin-sucup.png);
+    .photo {
+      background-image: url(../images/colaboradores/robin-sucup.jpg);
     }
   }
   .p2 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/jose-pop.png);
+    .photo {
+      background-image: url(../images/colaboradores/jose-pop.jpg);
     }
   }
   .p3 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/yeseña-rivera.png);
+    .photo {
+      background-image: url(../images/colaboradores/yeseña-rivera.jpg);
     }
   }
   .p4 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/sindi-pop.png);
+    .photo {
+      background-image: url(../images/colaboradores/sindi-pop.jpg);
     }
   }
   .p5 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/darlin-sucup.png);
+    .photo {
+      background-image: url(../images/colaboradores/darlin-sucup.jpg);
     }
   }
   .p6 {
-    .profile-picture {
-      background-image: url(../images/colaboradores/carlos-daniel-dubon-lemus.png);
+    .photo {
+      background-image: url(../images/colaboradores/carlos-daniel-dubon-lemus.jpg);
     }
   }
 }
@@ -994,15 +1002,4 @@ header {
       color: #5a5a5a;
     }
   }
-}
-
-.cbox::after {
-  content: "";
-  width: 100%;
-  background-color: red;
-  position: absolute;
-  height: 30px;
-  top: 0;
-  left: 0;
-  z-index: 5;
 }
