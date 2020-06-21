@@ -1000,6 +1000,11 @@ header {
       font-size: 14px;
       line-height: 23px;
       color: #5a5a5a;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

@@ -2027,4 +2027,10 @@ header .cta-2:hover {
   line-height: 23px;
   color: #5a5a5a;
 }
+
+.contact-box .content .location a:hover,
+.contact-box .content .telephones a:hover,
+.contact-box .content .email a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
